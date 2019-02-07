@@ -1,0 +1,200 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{anyt/global/}
+    \entry{dese}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0e4b0c9f3765932ce35b6d71a98db704}{%
+           family={Christoph\bibnamedelima Richter},
+           family_i={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Georg\bibnamedelima Hackenberg},
+           given_i={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=d05e689591a8b48e4bd8802c7d92b88e}{%
+           family={Zaeh},
+           family_i={Z\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {8th International Conference on Developments in eSystems Engineering}%
+      }
+      \strng{namehash}{7712027f1e791f5817334d2116327d19}
+      \strng{fullhash}{7712027f1e791f5817334d2116327d19}
+      \field{labelalpha}{CZ15}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Integrated Requirements and Systems Modeling in the Mechatronic Development Process}
+      \field{year}{2015}
+    \endentry
+    \entry{shetty}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b6998f4224d60b1c4c79e2134c90052e}{%
+           family={Devdas\bibnamedelima Shetty},
+           family_i={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           suffix={Lou\bibnamedelima Manzione},
+           suffix_i={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Ahad\bibnamedelima Ali},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6998f4224d60b1c4c79e2134c90052e}
+      \strng{fullhash}{b6998f4224d60b1c4c79e2134c90052e}
+      \field{labelalpha}{Dev12}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Robotics}
+      \field{title}{Survey of Mechatronic Techniques in Modern Machine Design}
+      \field{year}{2012}
+    \endentry
+    \entry{kuniavsky}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=27831289ebf07296d854d026e3e7206f}{%
+           family={Kuniavsky},
+           family_i={K\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers}%
+      }
+      \strng{namehash}{27831289ebf07296d854d026e3e7206f}
+      \strng{fullhash}{27831289ebf07296d854d026e3e7206f}
+      \field{labelalpha}{Kun12}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Observing the User Experience: A Practitioner's Guide to User Research}
+      \field{year}{2012}
+    \endentry
+    \entry{law}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=c8e9833864232d0e60609f46bc242a84}{%
+           family={Law},
+           family_i={L\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=914f985b9d332da8a7dd5dc098dde1ef}{%
+           family={Roto},
+           family_i={R\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=91426c85fd696516622ab41539dcf381}{%
+           family={Hassenzahl},
+           family_i={H\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=a91d1853b016d26e9369e9a72377c0f1}{%
+           family={Vermeeren},
+           family_i={V\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=379f3da91decea6cf0887ad46c3ed439}{%
+           family={Kort},
+           family_i={K\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5c67ea7f3b55d01d39619ac3b588fb4}
+      \strng{fullhash}{755f121c0f6b235b9c2789f2640d287d}
+      \field{labelalpha}{Law+09}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of Human Factors in Computing Systems conference}
+      \field{title}{Understanding, Scoping and Defining User Experience: A Survey Approach}
+      \field{year}{2009}
+    \endentry
+    \entry{leroy}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0ed0c6789c54d3d1c2f71198ff22e812}{%
+           family={Leroy},
+           family_i={L\bibinitperiod},
+           given={Gondy},
+           given_i={G\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media}%
+      }
+      \strng{namehash}{0ed0c6789c54d3d1c2f71198ff22e812}
+      \strng{fullhash}{0ed0c6789c54d3d1c2f71198ff22e812}
+      \field{labelalpha}{Ler11}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Designing User Studies in Informatics}
+      \field{year}{2011}
+    \endentry
+    \entry{russwurm}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4d6cf8fe625994e79efc76de3e124588}{%
+           family={Russwurm},
+           family_i={R\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Industrie 4.0}%
+      }
+      \strng{namehash}{4d6cf8fe625994e79efc76de3e124588}
+      \strng{fullhash}{4d6cf8fe625994e79efc76de3e124588}
+      \field{labelalpha}{Rus13}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{21–36}
+      \field{title}{Software: Die zukunft der industrie}
+      \field{year}{2013}
+    \endentry
+    \entry{kolk}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=517522003894627961cb7982569bfc34}{%
+           family={Shetty},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=35cd4626c62a144e73b119788500a19b}{%
+           family={Kolk},
+           family_i={K\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{001ca00871954da2b8d210371b55d45d}
+      \strng{fullhash}{001ca00871954da2b8d210371b55d45d}
+      \field{labelalpha}{SK98}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Thomson Engineering Publications}
+      \field{title}{Mechatronic System Design}
+      \field{year}{1998}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,0 +1,128 @@
+% !TeX root = ../main.tex
+% Add the above to each chapter to make compiling the PDF easier in some editors.
+
+\chapter{Background knowledge}\label{chapter:background_knowledge}
+
+In this chapter we introduce the reader to the knowledge needed for a better understanding of the problem scope and solution approach. Since we offer to evaluate engineering approach in terms of engineering process, modelling technique and prototyping tool (details in Chapter \ref{chapter:approach}), this chapter gives the description of the needed components of the engineering approach and focus of their evaluation.\\ 
+
+Hence in Section \ref{section:eval_e_p} we describe what an engineering process is, why its evaluation is important and what is the scope of interest of the researcher during engineering method evaluation. In Section \ref{section:eval_m_t} we explain the role of modelling in the design process, modelling software usage in the process, model suitability evaluation and modelling software assessment. In Section \ref{section:eval_p_t} we mention the influence of the usability of the engineering tool of the overall engineering process and describe the usability evaluation.\\
+
+In Section \ref{section:eval_methodology} we describe the evaluation methodology applied during the analysis stage to evaluate the engineering approach.\\
+
+% In this chapter we introduce the reader to the knowledge needed for a better understanding of the problem scope and solution approach. We give the reader a general definition of an engineering process and overview of the modeling technique so the reader would have a view on the area of usage of the MaCon approach. We also describe the methods of evaluation of both engineering process and modeling technique, that we cover in this work. As usability is a common concept of software tools assessment, we clarify the term and what software attributes it covers in order to show what we analyze when we talk about the evaluation of the usability of the MaCon workbench.\\
+
+% In Section \ref{section:user_exp_eval} we describe how we can evaluate User Experience by means of a User Study, as it is the main focus of the thesis being the selected method of collecting data for engineering approach evaluation. You can also find the descriptions of different types of user studies that can be useful in the area of application of this work. The solution if flexible towards the type of a user research.\\
+
+%----------------------------------------------------------------
+\section{Evaluation of the engineering process}\label{section:eval_e_p}
+The \textbf{engineering process} is a methodical series of steps that engineers use in creating functional systems. The process can be iterative. One framing of the engineering design process delineates the following stages: research, conceptualization, feasibility assessment, establishing design requirements, preliminary design, detailed design, production planning and tool design, and production \cite{wiki:engDesignProcess}.\\
+
+ According to \cite{eval}, the consideration of engineering process quality and efficiency is an important and well considered field, because the quality and effectiveness of the engineering process has a direct impact on the economic results on the production system.\\ 
+ 
+ The quality of an engineering process is defined by the degree of exact fulfilment of requirements to the engineered system coming from different sources. Thus it is assumed that each engineering process is accompanied by a detailed requirement engineering. The optimal quality is reached, if for each requirement defined in the requirement management there is an engineering activity (or a set of them) ensuring the fulfilment of this requirement \cite{eval}.\\
+
+The efficiency of an engineering process can be based on the intention of a fastest process or a cheapest process. Both can be evaluated exploiting the Earned Value Analysis\cite{design.vdi2206}. Depending on the intentions to follow we can define efficiency as a smallest Schedule Performance Index or a smallest Cost Performance Index \cite{eval}.
+
+
+%----------------------------------------------------------------
+\section{Evaluation of the modelling technique}\label{section:eval_m_t}
+The manufacturing systems design process is divided into two levels of detail, the conceptual modelling level and the detailed design level. The conceptual modelling level relates to developing the basic principles by which the system will work. The detailed design level relates to providing a detailed account of what is required \cite{wu}. \\
+
+The modelling technique is evaluated in terms of resulting model suitability. According to \cite{modelSuit}, model suitability is defined by it's coverage of the information sets. Therefore in order to evaluate the model suitability, the researcher has to define the information sets the model has to cover and the level of detail as well as the assessment criteria of the coverage of each information set. Afterwards the researcher has to compare the resulting model to the requirements according to the assessment criteria and derive a conclusion. \\ 
+
+Simulation is considered as a very important computer aid to the design process, partly because of the increased complexity of manufacturing systems and partly because of their dynamic and stochastic behaviour\cite{Eldabi2001}. According to \cite{law2} there is a set of desired features for the simulation software. Table \ref{tab:modeling_assessment} shows the assessment criteria for modelling technique evaluation offered by \cite{Eldabi2001}.\\
+
+\begin{table}[htpb]
+  \caption[Assessment criteria]{Modelling software assessment criteria}\label{tab:modeling_assessment}
+  \centering
+  \begin{tabular}{l l}
+    \toprule
+       Conceptual Modelling Features & Detailed Modelling Features\\
+    \midrule
+    Quick and simple model building & Detailed model building \\ 
+    Running speed & Automatic batch run \\
+    Low-level animation & High-level animation\\
+	Total output & Manufacturing features\\
+	Cell utilization & Total output\\
+	Life time of parts & Detailed statistics\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+While performing modelling evaluation the researcher is supposed to consider: 
+\begin{itemize}
+\item declared features of the modelling software
+\item non-functional assignment criteria
+\item continuous feedback of the users
+\item correspondence of the resulting model to the desired level of coverage of the designed system
+\end{itemize}
+
+
+%----------------------------------------------------------------
+\section{Evaluation of the engineering tool}\label{section:eval_p_t}
+
+Engineering tool (or set of tools) has a great impact on engineering process efficiency. Usability of the tool influences the speed and effort to meet the requirements of an engineering process outcome.\\
+
+Usability is the main assessment criteria for the evaluation of the engineering tool, which is an important part of the assessment of a tool-based engineering approach, because even if the engineering process is effective and the resulting model is good, usability of the prototypical software might me the decisive factor of embracing of declining the approach.\\
+
+In the international standard for the evaluation of software quality the  ISO, the International Standard Organization, defines \textbf{usability} as ”A set of attributes that bear on
+the effort needed for use, and on the individual assessment of such use, by a stated or implied set of users.” \cite{iso2001}. Alternatively, in the ISO 9241 they define usability as ”The effectiveness, 
+efficiency and satisfaction with which specified users achieve specified goals in particular environments” \cite{iso2010}, where:
+\begin{itemize}
+\item  Effectiveness is the accuracy and completeness with which specified users can achieve specified goals in particular environments.
+\item  Efficiency is the resources expended in relation to the accuracy and completeness of goals achieved.
+\item  Satisfaction is the comfort and acceptability of the work system to its users and other people affected by its use.
+\end{itemize}
+
+%----------------------------------------------------------------
+\section{Evaluation methodology}\label{section:eval_methodology}
+
+An experiment is the method of data collection for analysis of the engineering approach. By experiment we mean a user study. We leave open for the researcher to choose the type or combination of types of user studies, depending on the goals of the evaluation.  Subsection \ref{subsection:user_study} describes user studies, their types and attributes. Any of these study types are supported by the solution we provide in the thesis.\\
+
+Retrospective is an evaluation method used during the analysis of all aspects of the engineering approach. We give the definition of a retrospective analysis in Subsection \ref{subsection:retrospective} as well as how it is supposed to be used in the thesis scope.\\ 
+
+Basically, a user study is the first stage of the evaluation methodology, during which the data is collected and a retrospective is the second stage which uses the data from the study to perform the analysis. 
+
+%----------------------------------------------------------------
+\subsection{User research}\label{subsection:user_study}
+
+\textbf{User Research (user study)} focuses on understanding user behaviours, needs, and motivations through observation techniques, task analysis, and other feedback methodologies \cite{kuniavsky}. This field of research aims at improving the usability of products by incorporating experimental and observational research methods to guide the design, development, and refinement of a product.  User research is an iterative, cyclical process in which observations identify a problem space for which solutions are proposed. From these proposals design solutions are prototyped and then tested with the target user group. This process is repeated as many times as necessary.\\
+
+According to \cite{leroy} there are different types of user studies: 
+\begin{enumerate}
+	\item Naturalistic observation
+	\item Case studies, Field Studies and Descriptive studies
+	\item Action Research
+	\item Surveys
+	\item Correlation Studies
+	\item Measurement Studies
+	\item Quasi-Experiments
+% 	\item Controlled Experiments or Demonstration Studies
+\end{enumerate}
+
+All the mentioned types of user studies are supported by our solution and depend only on the experiment design and configuration.\\
+
+During \textbf{Naturalistic observation} the researcher studies the participants in their natural behaviour with the system without any intruding. It's a passive research. In the thesis scope, naturalistic observation would be capturing participants fulfilling a manufacturing engineering task.\\
+
+\textbf{Case studies, Field Studies and Descriptive studies} are studies where some intervention by researched is incorporated \cite{leroy}. These studies can answer questions such as "Why is the the MaCon workbench inconvenient for the users?". The goal of the research has to be formulated prior to the experiment. These studies can be combined with Action Research and should be combined with Surveys.\\
+
+\textbf{Action-case research or action research} uses the same approach like case studies, but includes more involvement from the researcher. The research has a goal and gives an opportunity to study difficult questions related to \textit{why} and \textit{how} aspects of the problem. During this experiment, the researcher is less of an observer, but more of an active manager, who leads the study to the situations, that fit the goals of the research. For example, the researcher might be interested in usage of the tool for concurrent engineering, so he might create such task and conditions, so the participants would collaboratively work on the same objects and researcher would have data to evaluate how suitable the solution is for this kind of usage.\\
+
+A \textbf{survey} is a list of questions aimed at extracting specific data from a particular group of people. The surveys help to study opinions, thoughts, feelings etc. It's an important part of the study to carefully design the questions of the survey for it to measure what is claimed to be measured.
+A single survey is made of at least a sample (or full population in the case of a census), a method of data collection (e.g., a questionnaire) and individual questions or items that become data that can be analysed statistically. In this work we use surveys as one of the main means of collecting user feedback during the experiment and the survey results are the main datasets that undergo analysis in the Analysis Tool.\\  
+
+A \textbf{Correlation study} is a study conducted to find the relations between variables. For example, how does the percentage of successful simulations depend on the quantity of contributors. \\
+
+A \textbf{measurement study} is a type of study that is focused on measurements of certain parameters. For example, there can be a interest in measuring time for certain task execution to compare the time needed to perform same activities in MaCon workbench and some other prototyping tool.\\ 
+
+\textbf{Quasi-Experiments} differ from the experiments in their lack of randomization \cite{leroy}. This type of study can be used if the researcher, for example manually assigns the participants to certain conditions, to compare the outcome of workbench usage according to the conditions. 
+
+In the thesis user study is one of the main means of evaluation and analysis of the prototypical tooling of the workbench as well as data collection for the retrospective analysis and the assessment of the engineering method and modelling technique. An advanced user study is what will be refereed as \textit{experiment} in further. The detailed description of the experiment will be described in the \textit{Approach} chapter.
+%----------------------------------------------------------------
+\subsection{Retrospective analysis}\label{subsection:retrospective}
+
+A \textbf{retrospective} is a formal method for evaluating project performance, extracting lessons learned, and making recommendations for the future \cite{nelson}. The retrospective analysis is usually supposed to be done \textit{postmortem}, which means after the project is finished. Although post-implementation is not the only suitable phase for the retrospective analysis. Basically it can be conducted after any iteration of the development process or even after any milestone of the process.\\ 
+
+Retrospective analysis in this work is supposed to be applied for evaluation of the engineering approach in the terms of how good the recommended phases and activities are, how well they correspond to real engineering challenges, tasks and environment. It is crucial in both aspects of the analysis of the engineering process: the efficiency and practical applicability of the proposed order of development phases and activities and the correspondence of the software to the development approach. Retrospective analysis is applied for evaluation of the modelling technique in terms of assessment the resulting model and process of its creation and prototyping tool itself in order to understand how the tool covered the needs of the work-flow in the terms of usability and how it influenced the process.\\
+
+The evaluation of a tool-based engineering approach in this thesis is supposed to be conducted on two levels: during the development process the continuous feedback from the users of the system should be collected and during the retrospective analysis the researcher should have an overview of the evolution of the project together with the corresponding feedback.
